@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--this is a nav bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="apple-logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+            alt="applelogo"
+        /></a>
+        <!--these are nav bar icons-->
+
+        <!--flex will be applied anythig bigger than large (d-lg-flex) mb-2 mb-lg-0 (when screen bigger than lg 0 will be applied) anything (screen) bigger than lg will display all list and anything larger will not display nav drop down -->
+        <div
+          class="collapse navbar-collapse d-none d-lg-flex justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mac</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">iPad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">iPhone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Watch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Airpods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV & Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="d-flex gap-3 align-items-center">
+          <i class="bi bi-search"></i>
+          <i class="bi bi-bag"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!--second link-->
+      <div
+        class="collapse d-lg-none justify-content-center px-4"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mac</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iPad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">iPhone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Watch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Airpods</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV & Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
