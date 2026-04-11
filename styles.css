@@ -2,3 +2,148 @@
   width: 20px;
   height: auto;
 }
+
+.hero-section {
+  background-image: url("https://web.archive.org/web/20260325112115im_/https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.learn {
+  color: white;
+  background-color: rgb(24, 89, 255);
+  border-color: rgb(24, 89, 255);
+  border-radius: 1000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1px;
+}
+.shop {
+  color: blue;
+  border-color: blue;
+  border-radius: 1000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1px;
+}
+
+.h3 {
+  padding: 3px;
+}
+
+.paragraph {
+  padding: 20px;
+  background: -webkit-linear-gradient(
+    356deg,
+    #0090f7,
+    #ba62fc,
+    #f2416b,
+    #f55600
+  );
+  background: linear-gradient(94deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.image-section {
+  background-image: url("https://www.apple.com/v/home/cf/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_medium_2x.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.buy {
+  color: rgb(24, 89, 255);
+  background-color: transparent;
+  border-color: rgb(24, 89, 255);
+  border-radius: 1000px;
+  border-width: 1px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-section-2 {
+  background-image: url("https://web.archive.org/web/20260325112116im_/https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_mediumtall_2x.jpg");
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+/* 
+.gallery-section {
+  height:;
+} */
+
+.img-1 {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.img-2 {
+  background-image: url("https://web.archive.org/web/20260325112125im_/https://www.apple.com/v/home/cm/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_medium_2x.jpg");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.img-4 {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium_2x.jpg");
+  background-size: contain;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.img-5 {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/apple-50/promo_apple_50__cb3xo5si7y6a_medium_2x.jpg");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.img-6 {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/wwdc26-announce/promo_wwdc26_announce__b74q051bn5ki_medium_2x.jpg ");
+  background-size: cover;
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.applelogo-trade-in-png {
+  background-image: url("https://www.apple.com/v/home/cm/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_medium_2x.png");
+  width: 155px;
+  height: 32px;
+  background-size: 155px 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
