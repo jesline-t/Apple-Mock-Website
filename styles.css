@@ -107,17 +107,22 @@
   background-repeat: no-repeat;
 }
 
+.img-3-container {
+  height: 700px;
+  width: atuo;
+}
 .img-3 {
   background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg");
-  background-size: cover;
-  height: 700px;
-  width: auto;
+  background-size: contain;
+  width: 100%;
+  height: 2000%;
   background-repeat: no-repeat;
+  object-fit: fill;
 }
 
 .img-4 {
   background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/promos/apple-card/promo_apple_card__5cm7draujpey_medium_2x.jpg");
-  background-size: contain;
+  background-size: cover;
   height: 700px;
   width: auto;
   background-repeat: no-repeat;
@@ -189,4 +194,52 @@
   background-size: 233px 29px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.display-5 {
+  font-size: large;
+}
+
+.buttons-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-logo {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/apple-card/logo__dcojfwkzna2q_large.png");
+  width: auto;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+}
+
+.apple50years-logo {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/apple-50/promo_logo_apple_50_headline__5493ndwfu0iy_medium_2x.png");
+  margin-top: 380px;
+  height: 250px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.buttons-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wdc-text {
+  margin-top: 500px;
+  color: white;
+  text-align: center;
 }
