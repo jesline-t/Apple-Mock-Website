@@ -147,3 +147,46 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.fs-1 {
+  color: white;
+  margin-top: 40px;
+}
+
+.btn-outline-primary {
+  border-radius: 1000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1px;
+}
+
+.btn-primary {
+  border-radius: 1000px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1px;
+}
+
+.ipad-air-logo {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/ipad-air-m4/hero_logo_ipad_air__ejixj9pic0uq_medium_2x.png");
+  height: 32px;
+  width: 100%;
+  background-size: 155px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.macbookpro-text {
+  color: white;
+  font-size: larger;
+}
+
+.watch-logo {
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/apple-watch-series-11/promo_logo_apple_watch_series_11__d9br21pxygya_large_2x.png");
+  width: 100%;
+  height: 32px;
+  background-size: 233px 29px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
