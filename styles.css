@@ -217,9 +217,9 @@
 }
 
 .apple50years-logo {
-  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/apple-50/promo_logo_apple_50_headline__5493ndwfu0iy_medium_2x.png");
+  background-image: url("https://web.archive.org/web/20260325112104im_/https://www.apple.com/v/home/cm/images/logos/apple-50/promo_logo_apple_50_headline__5493ndwfu0iy_medium.png");
   margin-top: 380px;
-  height: 250px;
+  height: 200px;
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -241,5 +241,23 @@
 .wdc-text {
   margin-top: 500px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+.carousel-container {
+  background-color: rgb(245, 244, 247);
+  margin-top: 30px;
+  height: fit-content;
+}
+
+.entertainment-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
