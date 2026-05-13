@@ -117,6 +117,7 @@
   width: auto;
   height: 700px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .img-4 {
@@ -259,4 +260,12 @@
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 50px;
+  gap: 1em;
 }
