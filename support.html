@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="supportstyles.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!--nav bar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -266,47 +266,108 @@
     </div>
 
     <!--container for applecare content-->
-    <div
-      class="applecare-container mt-5"
-      style="background-color: rgb(245, 244, 247); height: 1000px"
-    >
-      <div class="row bg-white">
-        <div class="col-6">
-          <img
-            src="./supportimages/tile-side-applecare.image.large_2x.png"
-            alt=""
-            class="w-100 object-fit-cover"
-            style="height: 550px"
-          />
+    <div class="applecare-container bg-body-tertiary" style="height: 2000px">
+      <div class="w-75 mx-auto">
+        <div class="row bg-white rounded-4 mt-3">
+          <div class="col-6 m-0 p-0">
+            <img
+              src="./supportimages/tile-side-applecare.image.large_2x.png"
+              alt=""
+              class="w-100 object-fit-cover m-0 p-0 rounded-start-4"
+              style="height: 550px"
+            />
+          </div>
+          <div class="col-6 my-auto">
+            <h2>Handled with AppleCare</h2>
+            <p>
+              Every AppleCare plan provides one-stop service for your Apple
+              products, with quick and easy repairs for accidents such as drops
+              and spills.
+            </p>
+          </div>
         </div>
-        <div class="col-6 my-auto">
-          <h2>Handled with AppleCare</h2>
-          <p>
-            Every AppleCare plan provides one-stop service for your Apple
-            products, with quick and easy repairs for accidents such as drops
-            and spills.
-          </p>
+
+        <!--2nd row-->
+        <div class="row bg-white rounded-4">
+          <div class="col-6 my-auto">
+            <h2>Apple Repair and Service</h2>
+            <p>
+              We can help you find an Apple-certified repair, performed by
+              trusted experts who use genuine Apple parts.
+            </p>
+          </div>
+          <div class="col-6 p-0 m-0">
+            <img
+              src="./supportimages/tile-feature-repair-and-service.image.large_2x.png"
+              alt=""
+              class="w-100 object-fit-cover rounded-end-4"
+              style="height: 550px"
+            />
+          </div>
         </div>
+
+        <!--More to explore-->
+        <h1 class="text-center mt-5">More to Explore</h1>
       </div>
 
-      <!--2nd row-->
-      <div class="row bg-white">
-        <div class="col-6 my-auto">
-          <h2>Apple Repair and Service</h2>
-          <p>
-            We can help you find an Apple-certified repair, performed by trusted
-            experts who use genuine Apple parts.
-          </p>
-        </div>
-        <div class="col-6">
-          <img
-            src="./supportimages/tile-feature-repair-and-service.image.large_2x.png"
-            alt=""
-            class="w-100 object-fit-cover"
-            style="height: 550px"
-          />
+      <!--banner content-->
+
+      <div
+        class="banner-container d-flex justify-content-center align-items-center"
+        style="height: 500px"
+      >
+        <!--container for banner-->
+        <div class="banner-content" style="width: 1700px">
+          <div class="row justify-content-center gap-4">
+            <!--first col banner-->
+            <div class="col d-flex justify-content-center col-lg-4">
+              <div
+                class="card bg-transparent border-0 card-body"
+                style="width: 18rem"
+              >
+                <img
+                  src="./supportimages/content-block-apple-support.png"
+                  class="card-img-top"
+                  style="width: 400px; height: auto"
+                  alt="img"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Apple Support App</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <!--second col banner-->
+            <div class="col d-flex justify-content-center col-lg-4">
+              <div
+                class="card bg-transparent border-0 card-body"
+                style="width: 18rem"
+              >
+                <img
+                  src="./supportimages/content-block-apple-support.png"
+                  class="card-img-top"
+                  style="width: 400px; height: auto"
+                  alt="img"
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Apple Support App</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!--container for banner ends after here-->
     </div>
 
     <script
